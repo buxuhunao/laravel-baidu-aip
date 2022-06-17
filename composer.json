@@ -1,0 +1,29 @@
+{
+    "name": "buxuhunao/laravel-baidu-aip",
+    "description": "Baidu aip Image Search for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "小瓜皮",
+            "email": "i@ihao.cc"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.2",
+        "illuminate/contracts": "^8.0|^9.0",
+        "illuminate/support": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Buxuhunao\\LaravelBaiduAip\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Buxuhunao\\LaravelBaiduAip\\Providers\\ServiceProvider"
+            ]
+        }
+    }
+}
